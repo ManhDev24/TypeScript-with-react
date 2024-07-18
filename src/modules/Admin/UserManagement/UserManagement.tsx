@@ -94,9 +94,9 @@ const UserManagement = () => {
           onChange={(page: number , pSize: number) => {
             setCurrentPage(page);
 
-            // if (pSize !== pageSize){
-            //   setPageSize(pSize)
-            // }
+            if (pSize !== pageSize){
+              setPageSize(pSize)
+            }
           }}
           showSizeChanger={false}
         />
